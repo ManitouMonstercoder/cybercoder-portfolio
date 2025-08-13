@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Courier New', monospace !important;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Courier New', monospace !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, li, ul, ol {
+  font-family: 'Courier New', monospace !important;
+}
