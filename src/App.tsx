@@ -54,7 +54,7 @@ function Home() {
                 <img 
                   src="/w.png" 
                   alt="Profile" 
-                  className="w-64 h-64 md:w-80 md:h-80 rounded-lg object-contain border-2 border-gray-800 shadow-lg bg-gray-900 p-2"
+                  className="w-64 h-64 md:w-80 md:h-80 rounded-lg object-contain border-2 border-black shadow-lg bg-black p-2"
                 />
               </div>
               <div className="text-center md:text-left">
