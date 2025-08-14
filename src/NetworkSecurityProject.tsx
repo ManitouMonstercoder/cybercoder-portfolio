@@ -27,7 +27,7 @@ function NetworkSecurityProject() {
 
       {/* LinkedIn Message */}
       {showLinkedInMessage && (
-        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 bg-black800 text-white px-6 py-3 rounded-md shadow-lg z-50 border border-cyan-500">
+        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-3 rounded-lg shadow-lg z-50 border-2 border-white">
           <p className="flex items-center">
             <span className="mr-2">Sorry, LinkedIn is not available. Please use the Email Me button for contact.</span>
           </p>
@@ -35,7 +35,7 @@ function NetworkSecurityProject() {
       )}
 
       {/* Project Header */}
-      <header className="bg-gradient-to-r from-gray-900 to-gray-800 py-16">
+      <header className="bg-black py-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 flex items-center">
@@ -43,11 +43,11 @@ function NetworkSecurityProject() {
               Network Security Monitoring System
             </h1>
             <div className="flex flex-wrap gap-3 mb-8">
-              <span className="bg-cyan-900/50 border border-cyan-700 px-3 py-1 rounded-full text-sm">Python</span>
-              <span className="bg-cyan-900/50 border border-cyan-700 px-3 py-1 rounded-full text-sm">Network Security</span>
-              <span className="bg-cyan-900/50 border border-cyan-700 px-3 py-1 rounded-full text-sm">Intrusion Detection</span>
-              <span className="bg-cyan-900/50 border border-cyan-700 px-3 py-1 rounded-full text-sm">Data Analysis</span>
-              <span className="bg-cyan-900/50 border border-cyan-700 px-3 py-1 rounded-full text-sm">Open Source</span>
+              <span className="bg-white text-black border-2 border-white px-3 py-1 rounded-full text-sm">Python</span>
+              <span className="bg-white text-black border-2 border-white px-3 py-1 rounded-full text-sm">Network Security</span>
+              <span className="bg-white text-black border-2 border-white px-3 py-1 rounded-full text-sm">Intrusion Detection</span>
+              <span className="bg-white text-black border-2 border-white px-3 py-1 rounded-full text-sm">Data Analysis</span>
+              <span className="bg-white text-black border-2 border-white px-3 py-1 rounded-full text-sm">Open Source</span>
             </div>
             <p className="text-xl text-white">
               A comprehensive network monitoring system that detects and alerts on suspicious activities using Python and open-source security tools.

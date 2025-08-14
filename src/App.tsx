@@ -54,7 +54,7 @@ function Home() {
                 <img 
                   src="/w.png" 
                   alt="Profile" 
-                  className="w-64 h-64 md:w-80 md:h-80 rounded-lg object-contain border-2 border-white shadow-lg bg-white p-2"
+                  className="w-64 h-64 md:w-80 md:h-80 rounded-lg object-contain border-2 border-gray-800 shadow-lg bg-gray-900 p-2"
                 />
               </div>
               <div className="text-center md:text-left">
@@ -92,9 +92,11 @@ function Home() {
             <div className="bg-black border-2 border-white p-8 rounded-lg">
               <p className="text-lg mb-6 text-white">
                 Since I began learning about technology, I have become interested in the point where hardware and software can come together to solve a problem. Whether it meant soldering the first circuit board, debugging a microcontroller with the C programming language, or implementing a Python-based backend service to supply a real-time data dashboard, I've always gravitated toward problems nobody seems to want to deal with.
+                Currently, as a budding Computer Engineer in the United States, I am working hard to complete my degree while, at the same time, deepening my own knowledge of embedded systems, backend and frontend development, and data visualization. My technical knowledge includes hardware design and programming languages like C, C++, and Python, along with web interface and API development that enables data consumption. I have a deep passion for the whole computing stack—from circuits and processors to databases, algorithms, and user interfaces.
+                Whether it's about exploring trends in sustainability, fine-tuning system performance, or protecting devices from cybersecurity attacks, my aim is to come up with solutions that are efficient as well as effective.
               </p>
               <p className="text-lg mb-6 text-white">
-                In my opinion, a real challenge is not seen as a barrier but a problem to solve. Proper engineering goes beyond the single acts well as effective.
+                In my opinion, a real challenge is not seen as a barrier but a problem to solve. Proper engineering goes beyond the single activity of rapid coding or computing; it involves the understanding of essential needs, the combination of technological skills and creativity, and the delivery of solutions with theoretical and practical effectiveness.
               </p>
               <div className="flex flex-col md:flex-row justify-between mt-8">
                 <div className="mb-6 md:mb-0">
@@ -103,6 +105,7 @@ function Home() {
                     Background
                   </h3>
                   <ul className="text-white">
+                    <li>Bachelor degree in computer engineering</li>
                     <li>Self-taught problem solver</li>
                     <li>Continuous learner</li>
                   </ul>
