@@ -23,10 +23,11 @@ function Home() {
       <nav className="bg-black border-b border-white py-4 sticky top-0 z-10">
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <Shield className="h-6 w-6 text-cyan-400" />
+            <Shield className="h-6 w-6 text-white" />
             <span className="font-bold text-xl text-white">CyberCoder</span>
           </div>
           <div className="hidden md:flex space-x-8">
+            <a href="/" className="text-white hover:text-gray-300 transition-colors">Home</a>
             <a href="#about" className="text-white hover:text-gray-300 transition-colors">About</a>
             <a href="#skills" className="text-white hover:text-gray-300 transition-colors">Skills</a>
             <a href="#projects" className="text-white hover:text-gray-300 transition-colors">Projects</a>
@@ -53,7 +54,7 @@ function Home() {
                 <img 
                   src="/w.png" 
                   alt="Profile" 
-                  className="w-48 h-48 md:w-64 md:h-64 rounded-lg object-cover border-2 border-white shadow-lg"
+                  className="w-64 h-64 md:w-80 md:h-80 rounded-lg object-contain border-2 border-white shadow-lg bg-white p-2"
                 />
               </div>
               <div className="text-center md:text-left">
@@ -90,10 +91,10 @@ function Home() {
             <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
             <div className="bg-black border-2 border-white p-8 rounded-lg">
               <p className="text-lg mb-6 text-white">
-                I'm someone who gets things done. Whether it's solving complex problems, building something from scratch, or figuring out what everyone else missed - I find a way to make it work.
+                Since I began learning about technology, I have become interested in the point where hardware and software can come together to solve a problem. Whether it meant soldering the first circuit board, debugging a microcontroller with the C programming language, or implementing a Python-based backend service to supply a real-time data dashboard, I've always gravitated toward problems nobody seems to want to deal with.
               </p>
               <p className="text-lg mb-6 text-white">
-                I don't just write code or crunch numbers. I dive deep, understand what's really needed, and deliver solutions that actually matter. When others see obstacles, I see puzzles waiting to be solved.
+                In my opinion, a real challenge is not seen as a barrier but a problem to solve. Proper engineering goes beyond the single acts well as effective.
               </p>
               <div className="flex flex-col md:flex-row justify-between mt-8">
                 <div className="mb-6 md:mb-0">

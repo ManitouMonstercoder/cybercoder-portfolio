@@ -14,11 +14,11 @@ function NetworkSecurityProject() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-black text-white">
       {/* Navigation */}
-      <nav className="bg-gray-800 py-4 sticky top-0 z-10">
+      <nav className="bg-black border-b border-white py-4 sticky top-0 z-10">
         <div className="container mx-auto px-4 md:px-6">
-          <Link to="/" className="flex items-center space-x-2 text-cyan-400 hover:text-cyan-300 transition-colors">
+          <Link to="/" className="flex items-center space-x-2 text-white hover:text-white transition-colors">
             <ArrowLeft className="h-5 w-5" />
             <span>Back to Portfolio</span>
           </Link>
@@ -27,7 +27,7 @@ function NetworkSecurityProject() {
 
       {/* LinkedIn Message */}
       {showLinkedInMessage && (
-        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-6 py-3 rounded-md shadow-lg z-50 border border-cyan-500">
+        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 bg-black800 text-white px-6 py-3 rounded-md shadow-lg z-50 border border-cyan-500">
           <p className="flex items-center">
             <span className="mr-2">Sorry, LinkedIn is not available. Please use the Email Me button for contact.</span>
           </p>
@@ -39,7 +39,7 @@ function NetworkSecurityProject() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 flex items-center">
-              <Shield className="h-10 w-10 text-cyan-400 mr-4" />
+              <Shield className="h-10 w-10 text-white mr-4" />
               Network Security Monitoring System
             </h1>
             <div className="flex flex-wrap gap-3 mb-8">
@@ -49,7 +49,7 @@ function NetworkSecurityProject() {
               <span className="bg-cyan-900/50 border border-cyan-700 px-3 py-1 rounded-full text-sm">Data Analysis</span>
               <span className="bg-cyan-900/50 border border-cyan-700 px-3 py-1 rounded-full text-sm">Open Source</span>
             </div>
-            <p className="text-xl text-gray-300">
+            <p className="text-xl text-white">
               A comprehensive network monitoring system that detects and alerts on suspicious activities using Python and open-source security tools.
             </p>
           </div>
@@ -57,12 +57,12 @@ function NetworkSecurityProject() {
       </header>
 
       {/* Project Overview */}
-      <section className="py-16 bg-gray-800">
+      <section className="py-16 bg-black800">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-8">Project Overview</h2>
             
-            <div className="bg-gray-700 p-8 rounded-lg shadow-lg mb-12">
+            <div className="bg-black700 p-8 rounded-lg shadow-lg mb-12">
               <p className="text-lg mb-6">
                 The Network Security Monitoring System is a robust solution designed to provide real-time visibility into network traffic, 
                 detect potential security threats, and alert administrators to suspicious activities. Built with Python and leveraging 
@@ -74,21 +74,21 @@ function NetworkSecurityProject() {
                 the system helps security teams respond quickly to potential threats before they can cause significant damage.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                <div className="bg-gray-800 p-6 rounded-lg">
+                <div className="bg-black800 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-4 flex items-center">
-                    <AlertTriangle className="h-6 w-6 text-cyan-400 mr-2" />
+                    <AlertTriangle className="h-6 w-6 text-white mr-2" />
                     Problem
                   </h3>
-                  <p className="text-gray-300">
+                  <p className="text-white">
                     Organizations face increasingly sophisticated cyber threats while lacking visibility into their network traffic and potential security incidents.
                   </p>
                 </div>
-                <div className="bg-gray-800 p-6 rounded-lg">
+                <div className="bg-black800 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-4 flex items-center">
-                    <Lock className="h-6 w-6 text-cyan-400 mr-2" />
+                    <Lock className="h-6 w-6 text-white mr-2" />
                     Solution
                   </h3>
-                  <p className="text-gray-300">
+                  <p className="text-white">
                     A comprehensive monitoring system that provides real-time analysis, threat detection, and automated alerting for security teams.
                   </p>
                 </div>
@@ -96,8 +96,8 @@ function NetworkSecurityProject() {
             </div>
 
             {/* Project Image */}
-            <div className="mb-12 bg-gray-700 p-4 rounded-lg shadow-lg">
-              <div className="aspect-video bg-gray-800 rounded flex items-center justify-center">
+            <div className="mb-12 bg-black700 p-4 rounded-lg shadow-lg">
+              <div className="aspect-video bg-black800 rounded flex items-center justify-center">
                 <img 
                   src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
                   alt="Network security monitoring dashboard" 
@@ -111,80 +111,80 @@ function NetworkSecurityProject() {
       </section>
 
       {/* Key Features */}
-      <section className="py-16 bg-gray-900">
+      <section className="py-16 bg-black900">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-8">Key Features</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
+              <div className="bg-black800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
                 <div className="flex items-center mb-4">
-                  <Activity className="h-8 w-8 text-cyan-400 mr-3" />
+                  <Activity className="h-8 w-8 text-white mr-3" />
                   <h3 className="text-xl font-semibold">Real-time Traffic Analysis</h3>
                 </div>
-                <p className="text-gray-300">
+                <p className="text-white">
                   Monitors network traffic in real-time, analyzing packets and flows to establish baselines and detect anomalies that could indicate security threats.
                 </p>
               </div>
               
-              <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
+              <div className="bg-black800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
                 <div className="flex items-center mb-4">
-                  <Eye className="h-8 w-8 text-cyan-400 mr-3" />
+                  <Eye className="h-8 w-8 text-white mr-3" />
                   <h3 className="text-xl font-semibold">Intrusion Detection</h3>
                 </div>
-                <p className="text-gray-300">
+                <p className="text-white">
                   Implements signature-based and behavior-based detection methods to identify known attack patterns and zero-day exploits.
                 </p>
               </div>
               
-              <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
+              <div className="bg-black800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
                 <div className="flex items-center mb-4">
-                  <Bell className="h-8 w-8 text-cyan-400 mr-3" />
+                  <Bell className="h-8 w-8 text-white mr-3" />
                   <h3 className="text-xl font-semibold">Alert System</h3>
                 </div>
-                <p className="text-gray-300">
+                <p className="text-white">
                   Configurable alerting system that notifies security teams through multiple channels including email, SMS, and integration with popular messaging platforms.
                 </p>
               </div>
               
-              <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
+              <div className="bg-black800 p-6 rounded-lg shadow-lg transition-transform hover:transform hover:scale-105">
                 <div className="flex items-center mb-4">
-                  <Database className="h-8 w-8 text-cyan-400 mr-3" />
+                  <Database className="h-8 w-8 text-white mr-3" />
                   <h3 className="text-xl font-semibold">Log Management</h3>
                 </div>
-                <p className="text-gray-300">
+                <p className="text-white">
                   Centralized logging system that collects, parses, and stores security events from multiple sources for analysis and compliance reporting.
                 </p>
               </div>
             </div>
 
-            <div className="bg-gray-800 p-8 rounded-lg shadow-lg mb-12">
+            <div className="bg-black800 p-8 rounded-lg shadow-lg mb-12">
               <h3 className="text-xl font-semibold mb-6 flex items-center">
-                <Server className="h-6 w-6 text-cyan-400 mr-2" />
+                <Server className="h-6 w-6 text-white mr-2" />
                 System Architecture
               </h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-white mb-6">
                 The system is built on a modular architecture with the following components:
               </p>
-              <ul className="space-y-4 text-gray-300">
+              <ul className="space-y-4 text-white">
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span><strong>Data Collection Module:</strong> Captures network traffic using packet sniffing libraries and collects logs from various network devices.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span><strong>Analysis Engine:</strong> Processes collected data using machine learning algorithms to detect anomalies and identify potential threats.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span><strong>Alert Manager:</strong> Generates and distributes alerts based on configurable rules and severity levels.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span><strong>Visualization Dashboard:</strong> Provides a web-based interface for security analysts to monitor network activity and investigate alerts.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span><strong>Storage Backend:</strong> Efficiently stores historical data for trend analysis and compliance reporting.</span>
                 </li>
               </ul>
@@ -194,20 +194,20 @@ function NetworkSecurityProject() {
       </section>
 
       {/* Technical Details */}
-      <section className="py-16 bg-gray-800">
+      <section className="py-16 bg-black800">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-8">Technical Implementation</h2>
             
-            <div className="bg-gray-700 p-8 rounded-lg shadow-lg mb-12">
+            <div className="bg-black700 p-8 rounded-lg shadow-lg mb-12">
               <h3 className="text-xl font-semibold mb-6 flex items-center">
-                <Code className="h-6 w-6 text-cyan-400 mr-2" />
+                <Code className="h-6 w-6 text-white mr-2" />
                 Technologies Used
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-lg mb-3">Core Technologies:</h4>
-                  <ul className="space-y-2 text-gray-300">
+                  <ul className="space-y-2 text-white">
                     <li>• Python 3.9+</li>
                     <li>• Scapy (Packet manipulation)</li>
                     <li>• Pandas (Data analysis)</li>
@@ -217,7 +217,7 @@ function NetworkSecurityProject() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg mb-3">Open Source Tools:</h4>
-                  <ul className="space-y-2 text-gray-300">
+                  <ul className="space-y-2 text-white">
                     <li>• Suricata (IDS/IPS)</li>
                     <li>• Elasticsearch (Data storage)</li>
                     <li>• Kibana (Visualization)</li>
@@ -228,13 +228,13 @@ function NetworkSecurityProject() {
               </div>
             </div>
 
-            <div className="bg-gray-700 p-8 rounded-lg shadow-lg mb-12">
+            <div className="bg-black700 p-8 rounded-lg shadow-lg mb-12">
               <h3 className="text-xl font-semibold mb-6 flex items-center">
-                <Terminal className="h-6 w-6 text-cyan-400 mr-2" />
+                <Terminal className="h-6 w-6 text-white mr-2" />
                 Code Snippet: Packet Analysis Function
               </h3>
-              <div className="bg-gray-900 p-4 rounded-lg overflow-x-auto">
-                <pre className="text-gray-300 font-mono text-sm">
+              <div className="bg-black900 p-4 rounded-lg overflow-x-auto">
+                <pre className="text-white font-mono text-sm">
 {`import scapy.all as scapy
 from collections import defaultdict
 import pandas as pd
@@ -350,15 +350,15 @@ class NetworkAnalyzer:
       </section>
 
       {/* Challenges and Results */}
-      <section className="py-16 bg-gray-900">
+      <section className="py-16 bg-black900">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-8">Challenges & Results</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+              <div className="bg-black800 p-6 rounded-lg shadow-lg">
                 <h3 className="text-xl font-semibold mb-4">Challenges Faced</h3>
-                <ul className="space-y-3 text-gray-300">
+                <ul className="space-y-3 text-white">
                   <li className="flex items-start">
                     <span className="text-red-400 mr-2">•</span>
                     <span>Processing high volumes of network traffic in real-time without performance degradation</span>
@@ -378,9 +378,9 @@ class NetworkAnalyzer:
                 </ul>
               </div>
               
-              <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+              <div className="bg-black800 p-6 rounded-lg shadow-lg">
                 <h3 className="text-xl font-semibold mb-4">Key Results</h3>
-                <ul className="space-y-3 text-gray-300">
+                <ul className="space-y-3 text-white">
                   <li className="flex items-start">
                     <span className="text-green-400 mr-2">•</span>
                     <span>Reduced incident response time by 65% through automated detection and alerting</span>
@@ -401,26 +401,26 @@ class NetworkAnalyzer:
               </div>
             </div>
 
-            <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-black800 p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold mb-6">Future Enhancements</h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-white mb-6">
                 The Network Security Monitoring System is under continuous development with the following planned enhancements:
               </p>
-              <ul className="space-y-3 text-gray-300">
+              <ul className="space-y-3 text-white">
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Integration with threat intelligence feeds to improve detection of known malicious actors</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Implementation of deep learning models for more sophisticated anomaly detection</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Development of automated response capabilities to contain threats without human intervention</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-cyan-400 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Expansion of the dashboard to include more detailed forensic analysis tools</span>
                 </li>
               </ul>
@@ -430,14 +430,14 @@ class NetworkAnalyzer:
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 py-8">
+      <footer className="bg-black800 py-8">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <Link to="/" className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors mb-6">
+          <Link to="/" className="inline-flex items-center text-white hover:text-white transition-colors mb-6">
             <ArrowLeft className="h-5 w-5 mr-2" />
             <span>Back to Portfolio</span>
           </Link>
           <div className="flex items-center justify-center mb-4">
-            <Shield className="h-6 w-6 text-cyan-400 mr-2" />
+            <Shield className="h-6 w-6 text-white mr-2" />
             <span className="font-bold text-xl">CyberPortfolio</span>
           </div>
           <p className="text-gray-400">
